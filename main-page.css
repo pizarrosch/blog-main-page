@@ -1,0 +1,73 @@
+.body {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  font-family: Inter, sans-serif;
+  width: 1152px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.hot-coffee {
+  font-weight: 700;
+  margin: 36px 0 25px 83px;
+  font-size: 20px;
+}
+
+.search {
+  display: flex;
+  /*margin-top: 36px;*/
+  /*margin-right: 186px;*/
+  /*margin-bottom: 25px;*/
+  gap: 12.4px;
+  margin: 36px 186px 25px 298px;
+  color: #718096;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 36px;
+  gap: 30px;
+  margin-bottom: 25px;
+  margin-right: 96px;
+}
+
+.page1 {
+  display: flex;
+  /*justify-content: space-between;*/
+  width: 1152px;
+  height: 467px;
+  align-self: center;
+  background-color: #FBFBFB;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin: 131px 102px 135px 127px;
+  width: 354px;
+  height: 146px;
+}
+
+.title-text {
+  font-weight: 700;
+  font-size: 60px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.paragraph {
+  font-size: 30px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.people-image {
+  margin: 70px 93px 74px 0;
+}
