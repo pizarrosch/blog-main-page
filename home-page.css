@@ -16,6 +16,7 @@
 
 .anchor {
   text-decoration: none;
+  color: black;
 }
 
 .anchor:visited {
