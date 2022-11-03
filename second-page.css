@@ -41,6 +41,11 @@
   cursor: pointer;
 }
 
+.up-button:hover {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(238, 130, 238, 1.0);
+}
+
 .second-line {
   margin-top: 0;
 }

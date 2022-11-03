@@ -18,12 +18,21 @@
   text-decoration: none;
 }
 
+.anchor:visited {
+  color: darkslateblue;
+}
+
+.anchor:hover {
+  color: rgba(113, 128, 150, 1);
+}
+
 .hot-coffee {
   font-weight: 700;
   margin: 36px 0 25px 83px;
   font-size: 20px;
   cursor: pointer;
   color: black;
+  transition: 0.3s;
 }
 
 .search {
