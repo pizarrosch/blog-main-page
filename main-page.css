@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   font-family: Inter, sans-serif;
+  color: rgba(113, 128, 150, 1);
   width: 1152px;
   max-width: 1280px;
   margin: auto;
@@ -51,6 +52,7 @@
   margin: 131px 102px 135px 127px;
   width: 354px;
   height: 146px;
+  color: black;
 }
 
 .title-text {
@@ -64,6 +66,7 @@
   font-size: 30px;
   margin-block-start: 0;
   margin-block-end: 0;
+  color: rgba(74, 85, 104, 1);
 }
 
 .people-image {
@@ -94,6 +97,7 @@
   font-size: 30px;
   margin-block-start: 0;
   margin-block-end: 0;
+  color: rgba(45, 55, 72, 1);
 }
 
 .paragraph2 {
@@ -110,6 +114,7 @@
 
 .bold {
   font-weight: 700;
+  color: rgba(45, 55, 72, 1);
 }
 
 .small-component {
@@ -131,6 +136,7 @@
 .small-component-title {
   font-size: 20px;
   margin: 18px 39px 15px 16px;
+  color: rgba(45, 55, 72, 1);
 }
 
 .small-component-paragraph {
@@ -165,6 +171,7 @@
   margin: 98px 69px 24px 63px;
   width: 308px;
   height: 96px;
+  color: black;
 }
 
 .page3-paragraph {
@@ -177,6 +184,12 @@
   margin: 0 65px 118px 63px;
   display: flex;
   justify-content: space-between;
+  color: rgba(74, 85, 104, 1);
+}
+
+.read-more-extra {
+  color: black;
+  font-weight: 700;
 }
 
 .button-container {
@@ -194,11 +207,20 @@
   justify-content: space-evenly;
   color: white;
   border-radius: 5px;
+  border: none;
+  padding: 0;
+}
+
+.button-font {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
 }
 
 .line {
   border: 1px solid rgba(232, 232, 232, 1);
   width: 1152px;
+  margin-top: 43px;
+  margin-bottom: 0;
 }
 
 .main-page-footer {
@@ -208,10 +230,12 @@
 
 .main-page-footer-paragraph {
   margin: 29px 497px 31px 89px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .main-page-links {
   margin: 31px 100px 30px auto;
   display: flex;
   gap: 30px;
+  color: rgba(69, 68, 68, 1);
 }
