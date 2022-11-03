@@ -1,0 +1,48 @@
+.main-image {
+  display: flex;
+  align-self: center;
+  margin: 19px auto 42px auto;
+}
+
+.article-title {
+  color: rgba(45, 55, 72, 1);
+  width: 765px;
+  margin: 41px auto 19px 192px;
+  font-size: 45px;
+}
+
+.author-and-date {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 350px;
+  margin: 0 auto 12px 192px;
+}
+
+.first-line {
+  margin: 0 auto 0 189px;
+  width: 760px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 765px;
+  margin: 37.5px auto 58px;
+  color: rgba(113, 128, 150, 1);
+}
+
+.up-button {
+  position: absolute;
+  top: 2000px;
+  right: 75px;
+  bottom: 152px;
+  left: 1120px;
+  cursor: pointer;
+}
+
+.second-line {
+  margin-top: 0;
+}
+
+

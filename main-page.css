@@ -6,16 +6,24 @@
   width: 1152px;
   max-width: 1280px;
   margin: auto;
+  /*align-items: center;*/
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
 }
+
+.anchor {
+  text-decoration: none;
+}
+
 .hot-coffee {
   font-weight: 700;
   margin: 36px 0 25px 83px;
   font-size: 20px;
+  cursor: pointer;
+  color: black;
 }
 
 .search {
@@ -26,6 +34,7 @@
   gap: 12.4px;
   margin: 36px 186px 25px 298px;
   color: #718096;
+  cursor: pointer;
 }
 
 .links {
@@ -35,6 +44,7 @@
   gap: 30px;
   margin-bottom: 25px;
   margin-right: 96px;
+  color: black;
 }
 
 .page1 {
@@ -193,8 +203,9 @@
 }
 
 .button-container {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-end;
+  width: 1060px;
 }
 
 .button {
@@ -209,6 +220,7 @@
   border-radius: 5px;
   border: none;
   padding: 0;
+  cursor: pointer;
 }
 
 .button-font {
@@ -217,7 +229,7 @@
 }
 
 .line {
-  border: 1px solid rgba(232, 232, 232, 1);
+  background-color: rgba(232, 232, 232, 1);
   width: 1152px;
   margin-top: 43px;
   margin-bottom: 0;
