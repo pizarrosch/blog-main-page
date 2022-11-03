@@ -6,7 +6,7 @@
   width: 1152px;
   max-width: 1280px;
   margin: auto;
-  /*align-items: center;*/
+  position: relative;
 }
 
 .navigation {
@@ -28,9 +28,6 @@
 
 .search {
   display: flex;
-  /*margin-top: 36px;*/
-  /*margin-right: 186px;*/
-  /*margin-bottom: 25px;*/
   gap: 12.4px;
   margin: 36px 186px 25px 298px;
   color: #718096;

@@ -30,14 +30,14 @@
   width: 765px;
   margin: 37.5px auto 58px;
   color: rgba(113, 128, 150, 1);
+  position: relative;
 }
 
 .up-button {
   position: absolute;
   top: 2000px;
-  right: 75px;
+  right: 80px;
   bottom: 152px;
-  left: 1120px;
   cursor: pointer;
 }
 
