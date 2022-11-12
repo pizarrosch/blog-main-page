@@ -42,7 +42,7 @@
 }
 
 .up-button:hover {
-  border-radius: 50%;
+  border-radius: 100%;
   box-shadow: 0 0 10px rgba(238, 130, 238, 1.0);
 }
 
